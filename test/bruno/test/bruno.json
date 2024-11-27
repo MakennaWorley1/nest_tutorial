@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "nest tutorial",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
