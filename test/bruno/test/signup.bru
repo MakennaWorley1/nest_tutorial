@@ -6,6 +6,16 @@ meta {
 
 post {
   url: http://localhost:3333/auth/signup
-  body: none
+  body: formUrlEncoded
   auth: none
+}
+
+body:form-urlencoded {
+  email: mworley@kengarff.com
+  password: password
+}
+
+body:multipart-form {
+  email: mworley@kengarff.com
+  password: hello
 }
